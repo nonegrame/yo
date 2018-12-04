@@ -102,3 +102,7 @@ typings/
 # Serverless directories
 .serverless
 
+.gitignore
+.idea/
+backend/storage/logs/
+frontend/.editorconfig
