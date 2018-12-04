@@ -1,32 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen### Laravel template
-vendor/
-node_modules/
-npm-debug.log
-
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-storage/*.key
-.env.*.php
-.env.php
-.env
-Homestead.yaml
-Homestead.json
-
-# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
-.rocketeer/
 ### Node template
 # Logs
 logs
@@ -96,9 +68,14 @@ typings/
 # nuxt.js build output
 .nuxt
 
+# Nuxt generate
+dist
+
 # vuepress build output
 .vuepress/dist
 
 # Serverless directories
 .serverless
 
+# IDE
+.idea
